@@ -44,13 +44,16 @@ From your command line:
 $ git clone https://github.com/joeldorosarioo/proffy-platform
 
 # Go into the repository
-$ cd proffy-platform
+$ cd proffy-platform/web
 
 # Install dependencies
 $ yarn install
 
 # Start Server
 $ yarn start
+
+# And repeat the same process in the repository
+$ cd proffy-platform/server
 
 ```
 
