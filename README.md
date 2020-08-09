@@ -37,24 +37,58 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 From your command line:
 
-### Install API
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/joeldorosarioo/proffy-platform
 
-# Go into the repository
+```
+
+### Install API
+
+
+```bash
+# Go into the server repository
+$ cd proffy-platform/server
+
+# Install dependencies
+$ yarn install
+
+# Run migrates
+$ yarn knex:migrate
+
+# Start the server
+$ yarn start
+```
+
+### Install web dependencies
+
+
+```bash
+# Go into the web repository
 $ cd proffy-platform/web
 
 # Install dependencies
 $ yarn install
 
-# Start Server
+# Start the application
+$ yarn start
+```
+
+### Install mobile dependencies
+
+To run the mobile application, you will need [Expo](https://expo.io/) installed on your phone.
+```bash
+# Go into the mobile repository
+$ cd proffy-platform/mobile
+
+# Install dependencies
+$ yarn install
+
+# Start the application
 $ yarn start
 
-# And repeat the same process in the repository
-$ cd proffy-platform/server
-
+# After compiling, start the Expo on your mobile phone and scan the QR code
 ```
 
 ## How to contribute
