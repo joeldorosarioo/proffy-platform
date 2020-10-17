@@ -17,9 +17,9 @@ Through our method you will learn new tools, learn about new technologies and di
 
 ## Project
 
-Proffy is a project developed based on the national day of Education professionals that takes place on August 6th.
+Happy is a project developed from the International Children's Day that takes place on October 12th.
 
-The goal is to create an application where you can find private tutors and connect with them.
+The goal is to create an application where you can find and visit orphanages.
 
 ## Technologies
 
@@ -40,7 +40,7 @@ From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/joeldorosarioo/proffy-platform
+$ git clone https://github.com/joeldorosarioo/happy-platform
 
 ```
 
@@ -49,13 +49,13 @@ $ git clone https://github.com/joeldorosarioo/proffy-platform
 
 ```bash
 # Go into the server repository
-$ cd proffy-platform/server
+$ cd happy-platform/server
 
 # Install dependencies
 $ yarn install
 
 # Run migrates
-$ yarn knex:migrate
+$ yarn migration:run
 
 # Start the server
 $ yarn start
@@ -66,7 +66,7 @@ $ yarn start
 
 ```bash
 # Go into the web repository
-$ cd proffy-platform/web
+$ cd happy-platform/web
 
 # Install dependencies
 $ yarn install
@@ -80,7 +80,7 @@ $ yarn start
 To run the mobile application, you will need [Expo](https://expo.io/) installed on your phone.
 ```bash
 # Go into the mobile repository
-$ cd proffy-platform/mobile
+$ cd happy-platform/mobile
 
 # Install dependencies
 $ yarn install
@@ -102,6 +102,6 @@ After merging your receipt request to done, you can delete a branch from yours.
 
 ## License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/joeldorosarioo/proffy-platform/blob/master/LICENSE) for details.
+This project is under the MIT license. See the [LICENSE](https://github.com/joeldorosarioo/happy-platform/blob/main/LICENSE) for details.
 
 Made with ♥ by Joel Oliveira [Get in touch!](https://www.linkedin.com/in/joeldorosarioo/)
