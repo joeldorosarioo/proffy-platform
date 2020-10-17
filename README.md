@@ -49,13 +49,13 @@ $ git clone https://github.com/joeldorosarioo/happy-platform
 
 ```bash
 # Go into the server repository
-$ cd happy-platform/server
+$ cd proffy-platform/server
 
 # Install dependencies
 $ yarn install
 
 # Run migrates
-$ yarn migration:run
+$ yarn knex:migrate
 
 # Start the server
 $ yarn start
@@ -66,7 +66,7 @@ $ yarn start
 
 ```bash
 # Go into the web repository
-$ cd happy-platform/web
+$ cd proffy-platform/web
 
 # Install dependencies
 $ yarn install
@@ -80,7 +80,7 @@ $ yarn start
 To run the mobile application, you will need [Expo](https://expo.io/) installed on your phone.
 ```bash
 # Go into the mobile repository
-$ cd happy-platform/mobile
+$ cd proffy-platform/mobile
 
 # Install dependencies
 $ yarn install
