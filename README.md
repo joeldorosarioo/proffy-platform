@@ -17,9 +17,9 @@ Through our method you will learn new tools, learn about new technologies and di
 
 ## Project
 
-Happy is a project developed from the International Children's Day that takes place on October 12th.
+Proffy is a project developed based on the national day of Education professionals that takes place on August 6th.
 
-The goal is to create an application where you can find and visit orphanages.
+The goal is to create an application where you can find private tutors and connect with them.
 
 ## Technologies
 
@@ -40,7 +40,7 @@ From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/joeldorosarioo/happy-platform
+$ git clone https://github.com/joeldorosarioo/proffy-platform
 
 ```
 
@@ -102,6 +102,6 @@ After merging your receipt request to done, you can delete a branch from yours.
 
 ## License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/joeldorosarioo/happy-platform/blob/main/LICENSE) for details.
+This project is under the MIT license. See the [LICENSE](https://github.com/joeldorosarioo/proffy-platform/blob/main/LICENSE) for details.
 
 Made with ♥ by Joel Oliveira [Get in touch!](https://www.linkedin.com/in/joeldorosarioo/)
